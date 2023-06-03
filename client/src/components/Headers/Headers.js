@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom"
 
 const Headers = () => {
   return (
-    <div>
+    
       <Navbar bg="dark" variant="dark" style={{ height: "50px" }}>
         <Container>
           <NavLink to="/" className="text-decoration-none text-light mx-2">Navbar</NavLink>
@@ -15,7 +15,7 @@ const Headers = () => {
           </Nav>
         </Container>
       </Navbar>
-    </div>
+    
   )
 }
 
