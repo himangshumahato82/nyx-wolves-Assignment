@@ -144,7 +144,7 @@ const Edit = () => {
 
 
   return (
-    <>
+    <div>
       {
         showspin ? <Spiner /> : <div className="container">
           <h2 className='text-center mt-1'>Update Your Details</h2>
@@ -213,7 +213,7 @@ const Edit = () => {
         </div>
       }
 
-    </>
+    </div>
   )
 }
 

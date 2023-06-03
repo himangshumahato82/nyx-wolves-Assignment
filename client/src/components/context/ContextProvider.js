@@ -11,7 +11,7 @@ const ContextProvider = ({ children }) => {
     const [deletedata, setDLtdata] = useState("");
 
     return (
-        <>
+        <div>
             <addData.Provider value={{ useradd, setUseradd }}>
                 <updateData.Provider value={{ update, setUpdate }}>
                     <dltdata.Provider value={{deletedata, setDLtdata}}>
@@ -19,7 +19,7 @@ const ContextProvider = ({ children }) => {
                     </dltdata.Provider>
                 </updateData.Provider>
             </addData.Provider>
-        </>
+        </div>
     )
 }
 

@@ -25,7 +25,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
   }
 
   return (
-    <>
+    <div>
       <div className="container">
         <Row>
           <div className="col mt-0">
@@ -46,7 +46,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
                   {
                     userdata.length > 0 ? userdata.map((element, index) => {
                       return (
-                        <>
+                        <div>
                           <tr>
                             <td>{index + 1 + (page - 1)*4}</td> 
                             <td>{element.fname + element.lname}</td>
@@ -93,7 +93,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
                               </Dropdown>
                             </td>
                           </tr>
-                        </>
+                        </div>
                       )
                     }) : <div className='no_data text-center'>NO Data Found</div>
                   }
@@ -113,7 +113,7 @@ const Tables = ({ userdata, deleteUser, userGet, handlePrevious, handleNext, pag
         </Row>
         <ToastContainer />
       </div>
-    </>
+    </div>
   )
 }
 

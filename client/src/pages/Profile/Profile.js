@@ -33,7 +33,7 @@ const Profile = () => {
     }, 1200)
   }, [id])
   return (
-    <>
+    <div>
       {
         showspin ? <Spiner /> : <div className="container">
           <Card className='card-profile shadow col-lg-6 mx-auto mt-5'>
@@ -60,7 +60,7 @@ const Profile = () => {
         </div>
       }
 
-    </>
+    </div>
   )
 }
 

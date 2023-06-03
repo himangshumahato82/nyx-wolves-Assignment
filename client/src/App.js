@@ -9,7 +9,7 @@ import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
-    <>
+    <div>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path='/edit/:id' element={<Edit />} />
         <Route path='/userprofile/:id' element={<Profile />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

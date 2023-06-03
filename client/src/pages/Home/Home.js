@@ -91,7 +91,7 @@ const Home = () => {
   },[search,gender,status,sort,page])
 
   return (
-    <>
+    <div>
     {
       useradd ?  <Alert variant="success" onClose={() => setUseradd("")} dismissible>{useradd.fname.toUpperCase()} Succesfully Added</Alert>:""
     }
@@ -220,7 +220,7 @@ const Home = () => {
         }
 
       </div>
-    </>
+    </div>
   )
 }
 
