@@ -17,3 +17,7 @@ app.use(router);
 app.listen(PORT,()=>{
     console.log(`Server start at port no ${PORT}`)
 })
+
+// env
+// DATABASE="mongodb+srv://himangshumahato82:1234@cluster0.mx0rhby.mongodb.net/?retryWrites=true&w=majority"
+// BASE_URL = "http://localhost:8000"
