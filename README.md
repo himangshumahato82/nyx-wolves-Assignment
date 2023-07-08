@@ -12,9 +12,14 @@ For FrontEnd Install dependencies: npm install Start the development server: npm
 
 For BackEnd Install dependencies: npm install Start the development server: node index.js
 
-Homepage:![Screenshot (244)](https://github.com/himangshumahato82/nyx-wolves-Assignment/assets/108947867/d1a5821e-7210-4788-8e10-22810c01fc37)
+Login page/sign up:![signin  page](https://github.com/himangshumahato82/nyx-wolves-Assignment/assets/108947867/7f23c17c-2f0e-497e-bd39-8806adeffcab)
 
-Register User: ![Screenshot (245)](https://github.com/himangshumahato82/nyx-wolves-Assignment/assets/108947867/aebe5af2-a360-4e4e-941d-f28a2184d6df)
+
+Add Car details form:![Screenshot (266)](https://github.com/himangshumahato82/nyx-wolves-Assignment/assets/108947867/d8152787-f631-471e-ba42-5ab9cb54d72c)
+
+
+display car details page:![Screenshot (267)](https://github.com/himangshumahato82/nyx-wolves-Assignment/assets/108947867/7bc30074-b274-496a-8397-a0eca51f7a86)
+
 
 ## Technology Used
 > • MongoDB
